@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  discord-logs-exporter:
+    image: tyrrrz/discordchatexporter
+    container_name: discord_logs_exporter
+    volumes:
+      - ./output:/app/out
